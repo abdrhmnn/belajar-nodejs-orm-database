@@ -1,0 +1,10 @@
+node js tidak support integrasi database oleh karena itu butuh libray package
+
+misal kita ingin integrasi dengan mysql, postgre, oracle, dll itu harus install library nya
+dan ini akan menjadi tidak fleksibel, karena kita terlalu fokus untuk menggunakan 1 package db saja
+
+untuk itu kebanyakan programmer node js menggunakan ORM untuk manipulasi data di db
+
+ORM adalah Object Relational Mapping itu adalah teknik pemrograman dimana pemetaan data di database
+dilakukan seperti konsep relational object, jadi dalam kata lain ketika kita manipulasi data di dalam db
+itu seakan-akan sama hal nya seperti manipulasi objek di pemrograman.
