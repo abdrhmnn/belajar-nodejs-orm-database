@@ -16,3 +16,19 @@ Saat membuat model di prisma schema itu sebelumnya harus punya column/field di t
 Tipe data nya juga bisa di set di model prisma nya
 
 tipe data apa aja yang disupport dan model type nya: baca dokumentasi nya
+
+Model-first migration yaitu konsep dimana kita membuat model tabel didalam prisma nya termasuk query
+SQL DDL setelah itu baru nanti di generate ke dalam bentuk file sql dan file sql tersebut baru akan
+di execute di db yang digunakan, dengan perintah:
+`npx prisma migrate dev --create-only --name <namaMigration>`
+
+perintah itu akan membuat folder baru yg berisi file sql untuk direview dlu query nya,
+setelah yakin baru jalanin perintah:
+`npx prisma migrate dev`
+
+Database-first migration yaitu konsep dimana database yang kita akan gunakan itu sudah ready
+nah tinggal dipakai/dikelola di prisma nya, dengan perintah :
+`npx prisma db pull`
+
+Di prisma juga disedikan UI untuk kelola data berdasarkan model yang sudah di set di schema nya
+dgn perintah: `npx prisma studio`

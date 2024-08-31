@@ -29,7 +29,7 @@ model Customer {
 
 model product {
   id String @id
-  nama String
+  nama String @db.VarChar(100)
   price Int
   stock Int
   category String
