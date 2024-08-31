@@ -26,3 +26,11 @@ model Customer {
 
   @@map("customers")
 }
+
+model product {
+  id String @id
+  nama String
+  price Int
+  stock Int
+  category String
+}

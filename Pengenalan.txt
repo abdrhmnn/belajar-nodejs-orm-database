@@ -8,3 +8,11 @@ untuk itu kebanyakan programmer node js menggunakan ORM untuk manipulasi data di
 ORM adalah Object Relational Mapping itu adalah teknik pemrograman dimana pemetaan data di database
 dilakukan seperti konsep relational object, jadi dalam kata lain ketika kita manipulasi data di dalam db
 itu seakan-akan sama hal nya seperti manipulasi objek di pemrograman.
+
+Prisma Schema berisikan informasi database yang digunakan oleh prisma client dari mulai koneksi hingga
+model data
+
+Saat membuat model di prisma schema itu sebelumnya harus punya column/field di tabel nya
+Tipe data nya juga bisa di set di model prisma nya
+
+tipe data apa aja yang disupport dan model type nya: baca dokumentasi nya
