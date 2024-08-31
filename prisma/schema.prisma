@@ -18,3 +18,11 @@ model sample {
   nama String
   email String
 }
+
+model Customer {
+  id String @id
+  nama String
+  umur Int
+
+  @@map("customers")
+}
